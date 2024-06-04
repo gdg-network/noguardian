@@ -75,7 +75,7 @@
           url: "chrome-extension://iheobagjkfklnlikgihanlhcddjoihkg/fonts/Metropolis.css"
         },
         "goguardian": {
-          name: "Goguardian the creators blocker so gg",
+          name: "Goguardian",
           url: "chrome-extension://haldlgldplgnggkjaafhelgiaglafanh/youtube_injection.js"
         },
         "lanschool": {
@@ -192,7 +192,7 @@
 
         for (let extension of detected) {
           let button = document.createElement("button");
-          button.innerText = `Freeze ${extension.name}`;
+          button.innerText = `temp remove ${extension.name}`;
           button.onclick = () => {
             button_handler(extension);
           }
